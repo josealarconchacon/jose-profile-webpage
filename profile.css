@@ -60,7 +60,8 @@ nav ul {
 }
 
 nav.black ul {
-      background: #000;
+      background: #000000;
+      /*#000*/
 }
 
 nav ul li {
@@ -148,6 +149,41 @@ nav ul li a {
     border-radius: 50%;
 }
 
+.row .card {
+  margin-top: 80px;
+  display: flex;
+  padding: 1rem;
+  border-radius: 0.25rem;
+  box-shadow: 0 20px 40px -14px rgba(0, 0, 0, 0.25);
+  line-height: 1.5;
+  font-weight: 200;
+}
+
+.list-inline-item .fa-facebook-f {
+  color: #3B5998;
+} 
+.list-inline-item .fa-twitter {
+  color: #55ACEE;
+} 
+.list-inline-item .fa-github {
+  color: #FFFFFF;
+} 
+.list-inline-item .fa-envelope {
+  color: #FFFFFF;
+} 
+.list-inline-item .fa-linkedin-in {
+  color: #0082CA;
+} 
+
+footer {
+  margin-top: 100px;
+  background-color: black;
+  color: white;
+
+}
+.container {
+  margin-bottom:-1.5em;
+}
 
 
 
