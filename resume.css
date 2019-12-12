@@ -6,6 +6,10 @@ body {
    font-family: Source Sans Pro;
 }
 
+.navbar-nav ,li, a {
+	color: black;
+}
+
 h2 {
 	color: #2c3e50;
 	font-size: 2.0rem;
