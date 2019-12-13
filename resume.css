@@ -35,5 +35,28 @@ hr {
 	margin-top: 5%;
 }
 
-/*///*/
+#carouselExampleControls {
+	margin-bottom: 100px;
+	box-sizing: border-box;
+}
+
+.list-inline-item .fa-facebook-f {
+  color: #3B5998;
+} 
+.list-inline-item .fa-twitter {
+  color: #55ACEE;
+} 
+.list-inline-item .fa-github {
+  color: #000000;
+} 
+.list-inline-item .fa-envelope {
+  color: #55ACEE;
+} 
+.list-inline-item .fa-linkedin-in {
+  color: #0082CA;
+} 
+footer  {
+  margin-top: 50px;
+}
+
 
