@@ -115,9 +115,8 @@ span {
 }
 
 
-.fab {
-    font-family: "Font Awesome 5 Brands";
-    color: white;
+.container {
+  margin-top: 150px;
 }
 
 .row .card {
@@ -130,35 +129,36 @@ span {
   font-weight: 200;
 }
 
-/*.list-inline-item .fa-facebook-f {
-  color: #3B5998;
-} */
 .list-inline-item .fa-twitter {
   color: #55ACEE;
+  font-size: 30px;
 } 
 .list-inline-item .fa-github {
   color: #000000;
+  font-size: 30px;
 } 
 .list-inline-item .fa-envelope {
   color: #55ACEE;
+  font-size: 30px;
 } 
 .list-inline-item .fa-linkedin-in {
   color: #0082CA;
+  font-size: 30px;
 } 
 
 footer {
-  margin-top: 100px;
+  margin-top: 20px;
   background-color: white;
   color: white;
 }
 footer .footer-copyright {
   color: #000000;
   font-weight: bold;
-  margin-top: 20px;
+  margin-top: 10px;
   margin-bottom: 50px;
 }
 .container {
-  margin-bottom:-1.5em;
+  margin-bottom:-1.0em;
 }
 
 
