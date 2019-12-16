@@ -71,7 +71,7 @@ hr {
 	margin-top: 10%;
 }
 
-#circle {
+/*#circle {
   background: #FFFFFF;
   border-radius: 50%;
   width:40px;
@@ -80,7 +80,7 @@ hr {
   justify-content: center;
   align-items: center;
   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-}
+}*/
 
 .list-unstyled .mr-3 {
  background-color: red;
