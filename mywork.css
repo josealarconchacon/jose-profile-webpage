@@ -12,6 +12,7 @@
   cursor: pointer;
   pointer-events: none;
   position: absolute;
+  font-size: 20px;
   top: 20px;
   left: 40px;
 }
@@ -23,7 +24,7 @@
   cursor: pointer;
   pointer-events: all;
   color: black;
-  font-size: 15px;
+  font-size: 20px;
 }
 .spacer {
   display: inline-block;
