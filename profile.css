@@ -1,19 +1,17 @@
 
-/*html, body {
+
+html, body {
       margin: 0;
       padding: 0;
       width: 100%;
       scroll-behavior: smooth;
-}*/
-
-body {
-      font-family: "Helvetica Neue",sans-serif;
+       font-family: "Helvetica Neue",sans-serif;
       font-weight: lighter;
 }
 
 header {
       width: 100%;
-      height: 100vh;
+      height: 120vh;
       background: url("https://images.unsplash.com/photo-1570224344094-125a17f832a3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1234&q=80")no-repeat center center fixed;
       background-size: cover;
       -webkit-background-size: cover;
@@ -87,6 +85,29 @@ span {
 }
 
 
+.col-md-4 .image {
+  box-shadow: 0 40px 40px -14px rgba(0, 0, 0, 0.25);
+}
+.fa-html5 {
+  color: #F16529;
+}
+.fa-css3 {
+  color: #264DE4;
+}
+.fa-js {
+  color: #D4B830;
+}
+.fa-git {
+  color: #F05033;
+}
+.fa-terminal {
+  color: #000000;
+}
+
+.description img {
+  width: 15px; 
+  height: 15px;
+}
 .content {
   width: 94%;
   margin: 4em auto;
