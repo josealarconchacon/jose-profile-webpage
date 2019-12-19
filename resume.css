@@ -59,6 +59,10 @@ h2 {
 	font-size: 2.0rem;
 }
 
+.shadow-lg {
+  background-color: white;
+}
+
 hr {
 	height: 12px;
 	border: 0;
