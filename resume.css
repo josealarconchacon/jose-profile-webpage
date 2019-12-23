@@ -96,7 +96,7 @@ hr {
 
 .list-inline-item .fa-twitter {
   color: #55ACEE;
-  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  box-shadow: 5px 5px 10px rgba(0,0,0,0.3);
   border-radius: 50%;
   width:40px;
   height: 40px;
@@ -106,7 +106,7 @@ hr {
 } 
 .list-inline-item .fa-github {
   color: #000000;
-  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  box-shadow: 5px 5px 10px rgba(0,0,0,0.3);
   border-radius: 50%;
   width:40px;
   height: 40px;
@@ -116,7 +116,7 @@ hr {
 } 
 .list-inline-item .fa-envelope {
   color: #D32E2A;
-  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  box-shadow: 5px 5px 10px rgba(0,0,0,0.3);
   border-radius: 50%;
   width:40px;
   height: 40px;
@@ -126,7 +126,7 @@ hr {
 } 
 .list-inline-item .fa-linkedin-in {
   color: #0082CA;
-  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  box-shadow: 5px 5px 10px rgba(0,0,0,0.3);
   border-radius: 50%;
   width:40px;
   height: 40px;
