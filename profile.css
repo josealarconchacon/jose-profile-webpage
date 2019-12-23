@@ -169,22 +169,17 @@ span {
   font-size: 30px;
 } 
 
-footer {
-  margin-top: 20px;
-  background-color: white;
+.row h5 {
+  margin-top: 10px;
+}
+.col-auto {
+  margin-bottom: 20px;
+}
+.footer {
+  margin-top: 0px;
+  background-color: #000;
   color: white;
 }
-footer .footer-copyright {
-  color: #000000;
-  font-weight: bold;
-  margin-top: 10px;
-  margin-bottom: 50px;
-}
-.container {
-  margin-bottom:-1.0em;
-}
-
-
 
 
 
