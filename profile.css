@@ -152,22 +152,25 @@ span {
   font-weight: 200;
 }
 
-.list-inline-item .fa-twitter {
+.fa-twitter {
   color: #55ACEE;
   font-size: 30px;
 } 
-.list-inline-item .fa-github {
+.fa-github {
   color: #000000;
   font-size: 30px;
 } 
-.list-inline-item .fa-envelope {
+.fa-envelope {
   color: #55ACEE;
   font-size: 30px;
 } 
-.list-inline-item .fa-linkedin-in {
+.fa-linkedin-in {
   color: #0082CA;
   font-size: 30px;
 } 
+.list-unstyled li, a {
+  color: white;
+}
 
 .row h5 {
   margin-top: 10px;
@@ -177,7 +180,7 @@ span {
 }
 .footer {
   margin-top: 0px;
-  background-color: #000;
+  background-color: #222922;
   color: white;
 }
 
