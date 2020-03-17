@@ -83,20 +83,4 @@ hr {
  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
-.list-inline-item .fa-twitter {
-  color: #55ACEE;
-} 
-.list-inline-item .fa-github {
-  color: #000000;
-} 
-.list-inline-item .fa-envelope {
-  color: #D32E2A;
-} 
-.list-inline-item .fa-linkedin-in {
-  color: #0082CA;
-} 
-footer  {
-  margin-top: 50px;
-}
-
 
