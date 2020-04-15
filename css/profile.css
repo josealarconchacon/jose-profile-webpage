@@ -5,7 +5,7 @@ html, body {
   padding: 0;
   width: 100%;
   scroll-behavior: smooth;
-  font-family: "Helvetica Neue",sans-serif;
+  /* font-family: "Helvetica Neue",sans-serif; */
   font-weight: lighter;
 }
 
@@ -65,7 +65,7 @@ header {
   transition-delay: 0;
 }
 
-.nav-link {
+.nav-link:hover {
   color: white;
 }
 span {
@@ -117,21 +117,18 @@ span {
 
 #intro h2 {
     color: white;
-    font-family: 'PT Sans Narrow', sans-serif;
     text-transform: uppercase;
-    font-size: 35px;
+    font-size: 50px;
     letter-spacing: 2px;
-    padding: 200px 0 5px 0;
+    padding: 250px 0 5px 0;
 }
-
 #intro h4 {
     margin: 0px;
     color: white;
-    font-family: "Raleway", sans-serif;
-    font-weight: 400;
+    font-family: 'Open Sans', sans-serif;
     text-transform: uppercase;
-    font-size: 15px;
-    letter-spacing: 2px;
+    font-size: 25px;
+    letter-spacing: 1px;
     padding: 0px 0 5px 0;
 }
 
