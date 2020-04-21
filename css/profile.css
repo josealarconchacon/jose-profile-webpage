@@ -1,9 +1,11 @@
 
 
-html, body {
-
+html {
   scroll-behavior: smooth;
+}
+body {
   font-weight: lighter;
+  width: 100%;
 }
 
 
@@ -183,3 +185,8 @@ span {
 }
 /* ------------------------------------------------------------------------------- */
 
+@media screen and (max-width: 360px) {
+  form-row col-xs-6 {
+    width: 100% !important; 
+  }
+}
