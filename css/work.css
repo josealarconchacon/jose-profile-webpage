@@ -1,55 +1,73 @@
-html, body{
-  height: 100%;
+
+#main-navbar {
+  font: 1.15em;
+  background-color: #2C5364;
+  padding-top: 1em;
 }
 
-body{
+#main-navbar ul {
   margin: 0;
+  padding: 0;
 }
 
-header{
-  position: relative;
-  height: 100%;
-  background-image: url("https://images.wallpaperscraft.com/image/leaves_green_dark_145996_2560x1440.jpg");
-  color: white;
-  font-family: arial;
-  overflow: hidden;
+#main-navbar li {
+  display: inline-block;
+  padding: 10px 20px;
 }
 
-a{
+#main-navbar li a {
   text-decoration: none;
-  color: white;
+  color: rgb(131, 143, 184);
 }
 
-li a:hover{
-  opacity: .5;
+#main-navbar li a:hover {
+  padding-bottom: 3px;
+  color: rgb(235, 224, 224);
 }
-ul{
-  float: right; 
-}
+/* nav end */
 
-ul li{
-  float: left;
-  list-style: none;
-  padding: 15px 20px;
-  font-weight: bold;
-  font-size: 15px;
-}
-
-li:first-child{
-  font-size: 19px;
-  border: 2px solid white;
-  padding-bottom: 10px;
-  padding-top: 10px;
+*,
+*::before,
+*::after {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-weight: 400;
 }
 
-li:first-child :hover{
-  color: lightblue;
-  opacity:1;
+:root {
+  font-size: 10px;
+  --padding: 3rem;
 }
 
-nav{
-  padding: 40px 10%;
-  
+::-moz-selection {
+  background: rgb(17, 17, 17, 0.99);
+  color: rgb(89, 89, 89);
 }
 
+::selection {
+  background: rgb(17, 17, 17, 0.99);
+  color: rgb(89, 89, 89);
+}
 
+body {
+	padding-top: 0;
+}
+
+.jumbotron {
+	color: #2c3e50;
+	background:#ecf0f1;
+}
+
+.navbar-inverse {
+	background: #2c3e50;
+}
+
+.navbar-inverse .navbar-nav>li>a {
+    color: white;
+}
+
+.navbar-inverse .navbar-brand {
+    color: white;
+}
