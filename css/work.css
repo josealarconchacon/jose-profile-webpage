@@ -1,0 +1,55 @@
+html, body{
+  height: 100%;
+}
+
+body{
+  margin: 0;
+}
+
+header{
+  position: relative;
+  height: 100%;
+  background-image: url("https://images.wallpaperscraft.com/image/leaves_green_dark_145996_2560x1440.jpg");
+  color: white;
+  font-family: arial;
+  overflow: hidden;
+}
+
+a{
+  text-decoration: none;
+  color: white;
+}
+
+li a:hover{
+  opacity: .5;
+}
+ul{
+  float: right; 
+}
+
+ul li{
+  float: left;
+  list-style: none;
+  padding: 15px 20px;
+  font-weight: bold;
+  font-size: 15px;
+}
+
+li:first-child{
+  font-size: 19px;
+  border: 2px solid white;
+  padding-bottom: 10px;
+  padding-top: 10px;
+}
+
+li:first-child :hover{
+  color: lightblue;
+  opacity:1;
+}
+
+nav{
+  padding: 40px 10%;
+  
+}
+
+
