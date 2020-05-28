@@ -1,7 +1,6 @@
 #main-navbar {
   font: 1.15em;
   background-color: #2C5364;
-  /* background: rgb(140, 154, 218); */
 }
 
 #main-navbar ul {
@@ -35,7 +34,6 @@ body {
   font-family: "Open Sans", sans-serif;
   color: #fff;
   /* background-image: url("https://images.wallpaperscraft.com/image/leaves_green_dark_145996_2560x1440.jpg"); */
-  /* background-image: url(https://i.postimg.cc/nrSWWDM1/bg-mobile.png); */
   background-color: #2C5364;
   background-position: center;
   background-size: cover;
