@@ -1,152 +1,50 @@
-#main-navbar {
-  font: 1.15em;
-  background-color: #2C5364;
-  padding-top: 1em;
-}
-
-#main-navbar ul {
-  margin: 0;
-  padding: 0;
-}
-
-#main-navbar li {
-  display: inline-block;
-  padding: 10px 20px;
-}
-
-#main-navbar li a {
-  text-decoration: none;
-  color: rgb(131, 143, 184);
-}
-
-#main-navbar li a:hover {
-  padding-bottom: 3px;
-  color: rgb(235, 224, 224);
-}
-/* header */
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
 body {
-  background-color: #674bb1;
-  font-family: "Open Sans", sans-serif;
-  color: #fff;
-  /* background-image: url("https://images.wallpaperscraft.com/image/leaves_green_dark_145996_2560x1440.jpg"); */
-  background-color: #2C5364;
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
+  font-family: 'Montserrat';
 }
-
-.container {
-  max-width: 750px;
-  margin: 0 auto;
-  padding-top: 100px;
+#title {
+  background-color: #03495e;
+  color:#fff;
 }
-
-
-header {
-  margin-bottom: 3rem;
-}
-
-main {
-  text-align: center;
-}
-
-.landing-img img {
-  height: 209px;
-  margin-bottom: 40px;
-  border-radius: 50%;
+.containers-fluid {
+  padding: 3% 15% 7%;
 }
 
 h1 {
-  font-family: "Poppins", sans-serif;
-  font-size: 1.5rem;
-  font-weight: 600;
-  margin-bottom: 24px;
-}
-
-p {
-  font-size: 1rem;
-  margin-bottom: 40px;
-}
-
-button {
-  background-color: #fff;
-  color: #674bb1;
-  border-radius: 999px;
-  border: none;
-  box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.6);
-  cursor: pointer;
-  padding: 1.2rem 5rem;
+  font-family: 'Montserrat-Black';
+  font-size: 3.5rem;
+  line-height: 1.5;
   font-weight: bold;
-  font-size: 12px;
-  margin-bottom: 30px;
-  transition: ease 0.5s;
 }
 
-.svg-inline--fa {
-  vertical-align: -0.200em;
+/* Navegation Bar */
+.navbar {
+  padding: 0 0 4.5rem;
+}
+.navbar-brand {
+  font-family: 'Ubuntu';
+  font-size: 2.5rem;
+  font-weight: bold;
 }
 
-.rounded-social-buttons {
-  text-align: center;
+.nav-item {
+  padding: 0 18px;
+}
+.nav-link {
+  font-size: 1.2rem;
+  font-family: "Montserrat-Light";
 }
 
-.rounded-social-buttons .social-button {
-  display: inline-block;
-  position: relative;
-  cursor: pointer;
-  width: 3.125rem;
-  height: 3.125rem;
-  border: 0.125rem solid transparent;
-  padding: 0;
-  text-decoration: none;
-  text-align: center;
-  color: #fefefe;
-  font-size: 1.5625rem;
-  font-weight: normal;
-  line-height: 2em;
-  border-radius: 1.6875rem;
-  transition: all 0.5s ease;
-  margin-right: 0.25rem;
-  margin-bottom: 0.25rem;
+/* download button */
+.download-button {
+  margin: 5% 3% 5% 0;
 }
 
-.rounded-social-buttons .fa-twitter, .fa-linkedin, .fa-instagram {
-  font-size: 25px;
+/* title image */
+.title-image {
+   width: 60%;
+   border-radius: 50%;
+   /* transform: rotate(5deg); */
+   /* put the image  behind the features */
+   position: absolute;
+   right: 30%;
 }
-
-.rounded-social-buttons .social-button.twitter {
-  background: #55acee;
-}
-
-.rounded-social-buttons .social-button.twitter:hover, .rounded-social-buttons .social-button.twitter:focus {
-  color: #55acee;
-  background: #fefefe;
-  border-color: #55acee;
-}
-
-.rounded-social-buttons .social-button.linkedin {
-  background: #007bb5;
-}
-
-.rounded-social-buttons .social-button.linkedin:hover, .rounded-social-buttons .social-button.linkedin:focus {
-  color: #007bb5;
-  background: #fefefe;
-  border-color: #007bb5;
-}
-
-.rounded-social-buttons .social-button.github {
-  background: #3e4041;
-}
-
-.rounded-social-buttons .social-button.github:hover, .rounded-social-buttons .social-button.github:focus {
-  color: #125688;
-  background: #fefefe;
-  border-color: #125688;
-}
-
