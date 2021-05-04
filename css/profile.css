@@ -48,3 +48,20 @@ h1 {
    position: absolute;
    right: 30%;
 }
+
+
+
+
+
+
+
+/* image   */
+@media (max-width: 1028px) {
+  #title {
+      text-align: center;
+  }
+  .title-image {
+      position: static;
+      transform: rotate(0);
+  }
+}
