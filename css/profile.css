@@ -6,7 +6,7 @@ body {
   color:#fff;
 }
 .containers-fluid {
-  padding: 3% 15% 7%;
+  padding: 3% 15% 8%;
 }
 
 h1 {
@@ -34,10 +34,6 @@ h1 {
   font-family: "Montserrat-Light";
 }
 
-/* download button */
-.download-button {
-  margin: 5% 3% 5% 0;
-}
 
 /* title image */
 .title-image {
